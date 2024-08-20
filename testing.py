@@ -1,4 +1,4 @@
-
+import random
 word = "secret"
 
 # creates an variable with an empty value
@@ -7,7 +7,6 @@ guesses = ''
 # determine the number of turns
 turns = 10
 
-# Create a while loop
 
 # check if the turns are more than zero
 while turns > 0:
@@ -59,5 +58,4 @@ while turns > 0:
 
         # if the turns are equal to zero
         if turns == 0:
-            #       print "You Lose"
             print("You Lose")
