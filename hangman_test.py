@@ -32,7 +32,7 @@ def play(word):
                         print('correct')
                         break
                     elif guess == word[i]:
-                        
+                        print()
                     else:
                         print('wrong')
                         current_index = current_index - 1

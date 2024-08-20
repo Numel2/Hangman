@@ -11,7 +11,6 @@ turns = 10
 # check if the turns are more than zero
 while turns > 0:
 
-    # make a counter that starts with zero
     failed = 0
 
     # for every character in secret_word
@@ -35,10 +34,11 @@ while turns > 0:
 
     # print You Won
     if failed == 0:
-        print("You won")
+        print("\nYou won")
         # exit the script
         break
         # ask the user go guess a character
+    print()
     guess = input("guess a character: ")
 
     # set the players guess to guesses
